@@ -1,5 +1,5 @@
 const ampq = require('amqplib');
-const config = require('./config');
+const config = require('../config');
 
 class Producer {
     channel;
